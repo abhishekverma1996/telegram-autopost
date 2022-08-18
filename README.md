@@ -1,9 +1,3 @@
-```
-Made with Python3
-License -> https://github.com/FayasNoushad/Channel-Auto-Post-Bot/blob/main/LICENSE
-```
-
----
 
 ## Deploy
 
