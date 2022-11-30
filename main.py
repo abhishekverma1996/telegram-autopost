@@ -38,9 +38,9 @@ API_HASH = os.environ.get("ce6fe3fd77c440ca544eb4594c1326fb")
 
 Bot = Client(
     "Demotestabhibot",
-    bot_token=BOT_TOKEN,
-    api_id=API_ID,
-    api_hash=API_HASH
+    bot_token=5435854729:AAHCSzl9PL30xsS_upk-IPviXaEyrLacMw0,
+    api_id=1381030,
+    api_hash=ce6fe3fd77c440ca544eb4594c1326fb
 )
 
 START_TEXT = """Hello {}, \
