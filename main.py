@@ -32,12 +32,12 @@ AS_COPY = bool(os.environ.get("AS_COPY", True))
 REPLY_MARKUP = bool(os.environ.get("REPLY_MARKUP", False))
 
 # bot informations
-BOT_TOKEN = os.environ.get("AAHCSzl9PL30xsS_upk-IPviXaEyrLacMw0")
+BOT_TOKEN = os.environ.get("5435854729:AAHCSzl9PL30xsS_upk-IPviXaEyrLacMw0")
 API_ID = os.environ.get("1381030")
 API_HASH = os.environ.get("ce6fe3fd77c440ca544eb4594c1326fb")
 
 Bot = Client(
-    "Channel Auto Post Bot",
+    "Demotestabhi",
     bot_token=BOT_TOKEN,
     api_id=API_ID,
     api_hash=API_HASH
