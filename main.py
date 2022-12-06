@@ -8,8 +8,8 @@ load_dotenv()
 
 # chat details
 FROM_CHANNELS = set(int(x)
-                    for x in os.environ.get("FROM_CHANNELS", "-1001496705628").split())
-TO_CHATS = set(int(x) for x in os.environ.get("TO_CHATS", "1416757836").split())
+                    for x in os.environ.get("FROM_CHANNELS", "").split())
+TO_CHATS = set(int(x) for x in os.environ.get("TO_CHATS", "").split())
 
 # filters for auto post
 FILTER_TEXT = bool(os.environ.get("FILTER_TEXT", True))
